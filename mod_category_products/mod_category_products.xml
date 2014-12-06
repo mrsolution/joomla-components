@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Products</name>
+    <author>Nagani Irshad</author>
+    <version>1.0.0</version>
+    <description>A simple Product module.</description>
+    <files>
+        <filename>mod_category_products.xml</filename>
+        <filename module="mod_category_products">mod_category_products.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">languages/en-GB.mod_category_products.ini</language>
+        <language tag="en-GB">languages/en-GB.mod_category_products.sys.ini</language>
+    </languages>
+    <config>
+
+        <fields
+        name="request"
+     addfieldpath="/administrator/components/com_category/models/fields">
+        </fields>
+
+
+        <fields name="params">
+            <fieldset name="basic">
+                 <field
+                    name="category"
+                    type="producteditmod"
+                    label="MOD_CATEGORY_PRODUCTS_FEILD_PAREMT_TITLE"
+                    description="MOD_CATEGORY_PRODUCTS_FEILD_PAREMT_DESC"
+                    multiple="multiple"
+                />
+                <field
+                    name="limit"
+                    type="text"
+                    filter="safehtml"
+                    cols="30"
+                    rows="5"
+                    label="MOD_CATEGORY_PRODUCTS_FIELD_POST_TEXT_LABEL"
+                    description="MOD_CATEGORY_PRODUCTS_FIELD_POST_TEXT_DESC" />
+                <field
+                    name="categoryid"
+                    type="radio"
+                    class="btn-group btn-group-yesno"
+                    default="1"
+                    label="MOD_CATEGORY_PRODUCTS_FIELD_GREETING_LABEL"
+                    description="MOD_CATEGORY_PRODUCTS_FIELD_GREETING_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field
+                        name="sort"
+                        type="list"
+                        label="JGLOBAL_SORT_BY"
+                        statuses="*,0,1,2,-2"
+                        description="JGLOBAL_SORT_BY"
+                        default="a.lft ASC"
+                        >
+                        <option value="">JGLOBAL_SORT_BY</option>
+                        <option value="id">JGRID_HEADING_ID</option>
+                        <option value="title">JGLOBAL_TITLE</option>
+                </field>
+            </fieldset>
+
+            <fieldset
+                name="advanced">
+                <field
+                    name="moduleclass_sfx"
+                    type="text"
+                    label="MOD_CATEGORY_PRODUCTS_FIELD_MODULECLASS_SFX_LABEL"
+                    description="MOD_CATEGORY_PRODUCTS_FIELD_MODULECLASS_SFX_DESC" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

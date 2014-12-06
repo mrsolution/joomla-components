@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+        <fieldset>
+                <field
+                    name="id"
+                    type="hidden"
+                />
+                <field
+                    name="country_name"
+                    type="text"
+                    label="COM__COUNTRY_TITLE_LABEL"
+                    description="COM_COUNTRY_COUNTRY_title_DESC"
+                    size="40"
+                    class="inputbox"
+                    default=""
+                    required="true"
+                />
+
+                <field
+                    name="country_flag"
+                    type="file"
+                    label="COM_COUNTRY_FLAG_IMAGE_LABEL"
+                />
+
+
+              <field
+                    name="country_area"
+                    type="text"
+                    label="COM_COUNTRY_AREA_LABEL"
+                    description="COM_COUNTRY_COUNTRY_title_DESC"
+                    size="40"
+                    class="inputbox"
+                    default=""
+                    required="true"
+                />
+
+                <field
+                    name="land_area"
+                    type="text"
+                    label="COM_COUNTRY_LANDAREA_LABEL"
+                    description="COM_COUNTRY_COUNTRY_title_DESC"
+                    size="40"
+                    class="inputbox"
+                    default=""
+                    required="true"
+                />
+                <field
+                    name="forest_area"
+                    type="text"
+                    label="COM__COUNTRY_FORESTAREA_LABEL"
+                    description="COM_COUNTRY_COUNTRY_title_DESC"
+                    size="40"
+                    class="inputbox"
+                    default=""
+                    required="true"
+                />
+
+
+        <field
+            name="summary_description"
+            type="editor"
+            label="JGLOBAL_DESCRIPTION"
+            description="COM_CATEGORIES_DESCRIPTION_DESC"
+            filter="JComponentHelper::filterText"
+            buttons="true"
+            hide="readmore,pagebreak"/>
+        <field
+	        name="usefull_links"
+	        type="editor"
+	        label="COM_COUNTRY_USEFULLLINKS_LABEL"
+	        description="COM_CATEGORIES_DESCRIPTION_DESC"
+	        filter="JComponentHelper::filterText"
+	        buttons="true"
+	        hide="readmore,pagebreak"/>
+
+         <field
+            name="social_media_link"
+            type="editor"
+            label="COM_COUNTRY_SOCIALMEDIALINK_LABEL"
+            description="COM_CATEGORIES_DESCRIPTION_DESC"
+            filter="JComponentHelper::filterText"
+            buttons="true"
+            hide="readmore,pagebreak"/>
+       <field
+        name="fcpf_participating"
+        type="radio"
+        class="btn-group btn-group-yesno"
+        default="1"
+        label="COM_COUNTRY_COUNTRY_FCPF_PARTICIPATING_LABEL"
+        description="COM_COUNTRY_COUNTRY_PUBLISHED_LABEL">
+           <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+
+       <field
+            name="published"
+            type="radio"
+            class="btn-group btn-group-yesno"
+            default="1"
+            label="COM_COUNTRY_COUNTRY_PUBLISHED_LABEL"
+            description="COM_COUNTRY_COUNTRY_PUBLISHED_LABEL">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        </fieldset>
+</form>

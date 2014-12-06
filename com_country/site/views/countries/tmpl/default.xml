@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+<layout title="COM_COUNTRY_COUNTRY_VIEW_DEFAULT_TITLE">
+<message>COM_CATEGORY_CATEGORY_VIEW_DEFAULT_DESC</message>
+</layout>
+<fields
+	name="request"
+	addfieldpath="administrator/components/com_country/models/fields/"
+	>
+ </fields>
+<fields name="request">
+	<fieldset name="request">
+		<field
+				name="id"
+				type="country"
+				label="COM_COUNTRY_COUNTRY_FIELD_GREETING_LABEL"
+				description="COM_COUNTRY_COUNTRY_FIELD_GREETING_DESC"
+				/>
+
+	</fieldset>
+</fields>
+</metadata>

@@ -1,0 +1,309 @@
+.front-end-edit ul {
+    padding: 0 !important;
+}
+.front-end-edit li {
+    list-style: none;
+    margin-bottom: 6px !important;
+}
+.front-end-edit label {
+    margin-right: 10px;
+    display: block;
+    float: left;
+    text-align: right;
+    width: 100px !important;
+}
+.front-end-edit .radio label {
+    float: none;
+}
+.front-end-edit .readonly {
+    border: none !important;
+    color: #666;
+}
+.front-end-edit #editor-xtd-buttons {
+    height: 50px;
+    width: 600px;
+    float: left;
+}
+.front-end-edit .toggle-editor {
+    height: 50px;
+    width: 120px;
+    float: right;
+}
+
+#jform_rules-lbl{
+    display:none;
+}
+
+#access-rules a:hover{
+    background:#f5f5f5 url('../imgs/slider_minus.png') right  top no-repeat;
+    color: #444;
+}
+
+fieldset.radio label{
+    width: 50px !important;
+}
+
+form div.button-div{
+    margin-left: 110px;
+}
+
+
+.overview_more_content ,.measures_more_content, .knowledge_more_content, .unredd_more_content, .announcements_more_content,.useful_more_content,
+.socialfeeds_more_content, .document_more_content{display:none}
+
+.rightmore {
+    color: #1FA2D6;
+    cursor: pointer;
+    padding: 10px 0;
+    text-align: right;
+}
+
+/*==== Kalpesh =====*/
+/*==== Kalpesh =====*/
+.subject_fields.left_wrp{width:65%; float:left;}
+.subject_fields.left_wrp table td{border:0 none;}
+.subject_fields.left_wrp table h2{font-size:21px; color:#008000; font-family:"OpenSansRegular"; margin-top:0;}
+.subject_fields.left_wrp table h4{font-size:13px; color:#444; font-weight:bold; font-family:"OpenSansBold";}
+.subject_fields.left_wrp .sectiondesc.sviewmore{background: url(../imgs/seperator.png) center bottom no-repeat; border-top:0 none; padding-bottom:20px;}
+.sectiondesc dd.categories_faqs{margin:0;}
+.sectiondesc dd.categories_faqs .faq_container{margin:0;}
+.sectiondesc dd.categories_faqs .faq_container .faq_question_standart{background:#f5f5f5; padding:7px 10px;}
+.sectiondesc dd.categories_faqs .faq_container .faq_answer_standart{margin:10px; padding:0; color:#444; font-size:13px; font-family:"OpenSansRegular";}
+.sectiondesc dd.categories_faqs .faq_container .faq_answer_standart p{color:#444; font-size:13px;}
+.sectiondesc dd.categories_faqs .faq_container .standart_title_ltr{color:#333; font-size:15px; font-family:"OpenSansRegular"; font-weight:normal;}
+.cal_btn{text-align:right;  height: 35px;   margin-top: -30px;}
+.cal_btn a{background:#383838; font-size:13px; color:#fff; padding: 7px 15px; border-radius:5px;}
+.cal_btn a:hover{background:#383838; font-size:13px; color:#f1f1f1; padding: 7px 15px; border-radius:5px;}
+.measures_more_content ul{padding-left:40px;}
+.measures_more_content ul li{list-style:none; background:url(../imgs/bullet_arrow.png) left 7px no-repeat; padding-left:20px;}
+.knowledge_more_content li{list-style:none;}
+.knowledge_more_content ul{padding-left:40px;}
+.knowledge_more_content ul li{list-style:none; background:url(../imgs/bullet_arrow.png) left 7px no-repeat; padding-left:20px;}
+
+
+.overview_more_content li{list-style:none;}
+.overview_more_content ul{padding-left:40px;}
+.overview_more_content ul li{list-style:none; background:url(../imgs/bullet_arrow.png) left 7px no-repeat; padding-left:20px;}
+#sectiondiscussion ul li{ background: url(../imgs/speech_bubble.png) no-repeat scroll 0 3px rgba(0, 0, 0, 0) !important;   line-height: 18px;   margin-bottom: 10px;
+    padding-left: 28px;}
+h2#overviewsection{font-size:24px;}
+.subject_fields.right_wrp{width:30%; float:left; margin-left:5%;}
+.subject_fields.right_wrp .usefulsection h2{font-size:21px; color:#008000; font-family:"OpenSansRegular"; margin-top:0;}
+.subject_fields.right_wrp .usefulsection h4{font-size:13px; color:#444; font-weight:bold; font-family:"OpenSansBold";}
+.unsubjectforum li{ background: url("../imgs/bullet2.png") no-repeat scroll 0 3px rgba(0, 0, 0, 0) !important;   line-height: 18px;   margin-bottom: 10px;
+    padding-left: 28px;}
+
+.unsubjectforum li a{font-size:13px; color: #222; font-family:"OpenSansRegular";}
+.usefulsection{ border: 1px solid #ebebeb; clear: both;  margin-bottom: 30px;  padding: 18px 28px;  position: relative;}
+.usefulsection.rightblock li{ background: url("../imgs/bullet2.png") no-repeat scroll 0 3px rgba(0, 0, 0, 0) !important;   margin-bottom: 10px;
+    padding-left: 28px;	font-size:13px; color: #777; font-family:"OpenSansRegular";}
+.usefulsection.rightblock li a{font-size:13px; color: #222; font-family:"OpenSansRegular";}
+
+.innr_blck_shdow{background:url("../imgs/bg_shadow.png") no-repeat center bottom;    bottom: -14px; display: block; height: 20px;  left: 0;  position: absolute; width: 100%;}
+.open_quote{background: url(../imgs/open_quote.png) left top no-repeat; width:16px; height:16px; position:absolute; left:7px; top:50px;}
+.close_quote{background: url(../imgs/close_quote.png) right top no-repeat; width:16px; height:16px; position:absolute; right:11px; bottom:22px;}
+@media only screen and (max-width : 480px) {
+  /* Styles */
+.subject_fields.left_wrp{width:100%; float:left;}
+.subject_fields.right_wrp{width:100%; float:left; margin-left:0;}
+}
+@media (min-width: 360px) and (max-width:480px) {
+.subject_fields.left_wrp{width:100%; float:left; padding:0 10px; box-sizing: border-box;}
+.subject_fields.right_wrp{width:100%; float:left; margin-left:0;}
+}
+@media (max-width: 767px) {
+.subject_fields.left_wrp{width:100% !important; float:none;}
+.subject_fields.right_wrp{width:100% !important; float:none; padding:0 10px !important; box-sizing:border-box; margin:0 !important; }
+}
+@media (min-width: 767px) and (max-width:800px){
+.subject_fields.right_wrp{width:100%; float:left; margin-left:3% !important;}
+
+}
+
+
+/* edited heena 03/09/2014 */
+.cal_td_daysnames {
+  background-color: #E9B4A1;
+  background-position: left top;
+  background-repeat: repeat-x;
+  border-bottom: 1px solid #000000;
+  color: black;
+  font-weight: bold;
+  height: 25px !important;
+  line-height: 25px;
+  text-align: center !important;
+}
+.ev_table td {
+    padding: 5px;
+}
+.ev_td_left {
+  background-color: #C5D5E5;
+  border-right: 1px solid #000000 !important;
+  border-top: 1px solid #000000 !important;
+  color: black;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+}
+.ev_td_right {
+  border-top: 1px solid #000000 !important;
+  width: 100%;
+}
+#jevents_body ul.ev_ul {
+  list-style: none;
+  margin: 5px;
+  padding: 0;
+}
+
+ul.ev_ul li.ev_td_li {
+  background-image: none;
+  border-style: solid;
+  border-width: 0 0 0 5px;
+  margin-bottom: 10px;
+  padding-left: 2px;
+}
+.ev_table {
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-right: 1px solid  #000000;
+}
+.ev_fieldset {
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+}
+#map {
+        width: 250px;
+height: 260px;
+      }
+
+.subject_fields .articletitle {font-weight:bold;}
+.unsubjectdocman .btn-toolbar {  display: inline-block;}
+
+.document-list-detail {
+display: inline-block;
+width: 75%;
+}
+.com_docman .docman-row .docman-group .document-list-thumbnail {
+display: inline-block;
+margin-top: 15px;
+width: 23%;
+}
+
+.unsubjectdocman .document-list-thumbnail { float: right !important;}
+.unsubjectdocman .docman-document-header a{font-size: 16px !important;}
+
+.subject_fields .expandcollapseall {text-align: center; background: #383838; color: #fff; border-radius: 5px 5px 5px 5px; padding: 7px 10px; cursor: pointer; min-width:80px;
+float: right;}
+.subject_fields .category { float: left;}
+.subject_fields .announcemaintr td{ padding-top: 10px;}
+.subject_fields .announmenttable tr:first-child td:first-child{ padding-top: 0px !important;}
+.subject_fields .announmenttable table tr:first-child td:first-child{ padding-top: 10px !important;}
+.subject_fields.left_wrp table h2.unsubjectfaqsh2{width:80%; float:left;}
+
+
+/*-------Country Page------------*/
+.imgbox
+{
+  float:right;
+}
+.map
+{
+  width: 200px;
+  height: 150px;
+  border-width: 5px;
+  border-style: solid;
+  float: left;
+}
+#h4txt
+{
+  font-weight: normal;
+
+}
+.mapbox
+{
+  width: 260px;
+  height: 260px;
+  float: left;
+}
+#mapno-image
+{
+  width: 250px;
+  height: 250px;
+  margin-right: 10px;
+}
+.block
+{
+  float: left;
+}
+/* ---------------------- Sobipro contact section listing module css ----------------------*/
+#sectioncontacts{
+  float: left;
+  padding: 18px 18px;
+}
+#sectioncontacts .sectiondesc,
+#sectioncontacts .contacts-listing,
+#sectioncontacts .contacts-listing .contact{
+  float: left;
+  width: 100%;
+}
+#sectioncontacts .contacts-listing .contact{
+  margin-bottom: 10px;
+}
+#sectioncontacts .contacts-listing .contact .inner-cntnr{
+ width: 100%; 
+ float:left;
+}
+#sectioncontacts .contacts-listing .contact .contact-image{
+  width:24%;
+  float: left;
+}
+#sectioncontacts .contacts-listing .contact .contact-image img{float: left;width: 60px;height: 60px;}
+#sectioncontacts .contacts-listing .contact .contact-image span.no-image{
+ background: url('../imgs/noImageAvailable.jpg') top left no-repeat; 
+ float: left;
+ width: 60px;
+ height: 60px;
+}
+#sectioncontacts .contacts-listing .contact .contact-summary{
+  width:72%;
+  float: right;
+}
+/* ---------------------- Sobipro contact section listing module css ----------------------*/
+/* ---------------------- Sobipro organisation section listing module css ----------------------*/
+#sectionpartnerorgs{
+  float: left;
+}
+#sectionpartnerorgs .sectiondesc,
+#sectionpartnerorgs .orgs-listing,
+#sectionpartnerorgs .orgs-listing .org{
+  float: left;
+  width: 100%;
+}
+#sectionpartnerorgs .orgs-listing .org{
+  margin-bottom: 10px;
+}
+#sectionpartnerorgs .orgs-listing .org .inner-cntnr{
+ width: 100%; 
+ float:left;
+}
+#sectionpartnerorgs .orgs-listing .org .org-image{
+  width:45%;
+  float: left;
+}
+#sectionpartnerorgs .orgs-listing .org .org-image img{float: left;width: 100%;height: 100%;}
+#sectionpartnerorgs .orgs-listing .org .org-image span.no-image{
+ background: url('../imgs/NoImageAvailable_100.jpg') top left no-repeat; 
+ float: left;
+ width: 100px;
+ height: 100px;
+}
+#sectionpartnerorgs .orgs-listing .org .org-summary{
+  width:50%;
+  float: right;
+}
+/* ---------------------- Sobipro organisation section listing module css ----------------------*/
